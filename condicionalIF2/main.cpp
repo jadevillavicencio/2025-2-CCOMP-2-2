@@ -24,7 +24,20 @@ int main()
       * Escribir un programa que indique si el valor ingresado es una
       * LETRA MAYUSCULA o LETRA MINUSCULA
       */
-      if( (num >= 65 && num <= 90) || (num >= 97 && num <= 122) )
+      if( (num >= 65 && num <= 90) || (num >= 97 && num <= 122) {
+         cout << "Es una LETRA" << endl;
+      } else {
+          cout << "NO es una letra" << endl:
+      }
+      /**
+      * Escribir un programa que indique si el valor ingresado es un
+      * NUMERO
+      */
+      if(num >= 48 && num < 57) {
+        cout << "Es un NUMERO!!!!! :3"<< endl;
+      } else {
+          cout << "NO es un numero !!! :c"<< endl;
+      }
 
-    return 0;
+      return 0;
 }
